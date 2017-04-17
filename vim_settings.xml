@@ -5,7 +5,7 @@
       <mark key="M" line="60" column="23" filename="$USER_HOME$/WebstormProjects/MyBlog/main.css" />
     </globalmarks>
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1492441246803">
+      <file name="/Dummy.txt" timestamp="1492443703710">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/MyBlog/index.html" timestamp="1492434285201">
@@ -21,7 +21,7 @@
         <mark key="^" line="13" column="16" />
         <mark key="." line="13" column="16" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/main.css" timestamp="1492409560668">
+      <file name="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/main.css" timestamp="1492443633662">
         <mark key="'" line="274" column="26" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="298" column="107" />
@@ -34,12 +34,12 @@
         <mark key="." line="4" column="15" />
         <mark key="^" line="4" column="15" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/MyBlog/main.css" timestamp="1492440611167">
+      <file name="$USER_HOME$/WebstormProjects/MyBlog/main.css" timestamp="1492443658302">
         <mark key="'" line="158" column="14" />
-        <mark key="[" line="106" column="20" />
-        <mark key="]" line="92" column="25" />
-        <mark key="." line="92" column="25" />
-        <mark key="^" line="92" column="25" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
+        <mark key="^" line="11" column="80" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/DIV_CSS/index.html" timestamp="1491752323366">
         <mark key="[" line="19" column="0" />
@@ -61,12 +61,12 @@
         <mark key="." line="109" column="12" />
         <mark key="^" line="109" column="12" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/index.html" timestamp="1492409110676">
-        <mark key="'" line="118" column="19" />
-        <mark key="[" line="129" column="0" />
-        <mark key="]" line="118" column="19" />
-        <mark key="^" line="118" column="19" />
-        <mark key="." line="118" column="19" />
+      <file name="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/index.html" timestamp="1492443424078">
+        <mark key="'" line="1282" column="12" />
+        <mark key="[" line="1274" column="17" />
+        <mark key="]" line="1270" column="24" />
+        <mark key="^" line="1270" column="24" />
+        <mark key="." line="1270" column="24" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/MyBlog/main.js" timestamp="1492324365451">
         <mark key="[" line="0" column="0" />
@@ -94,8 +94,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="46" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/main.css" />
-      <jump line="78" column="28" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/main.css" />
       <jump line="240" column="141" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/main.css" />
       <jump line="291" column="9" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/main.css" />
       <jump line="293" column="9" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/main.css" />
@@ -194,52 +192,54 @@
       <jump line="153" column="14" filename="$USER_HOME$/WebstormProjects/MyBlog/main.css" />
       <jump line="56" column="0" filename="$USER_HOME$/WebstormProjects/MyBlog/index.html" />
       <jump line="0" column="0" filename="$USER_HOME$/WebstormProjects/MyBlog/index.html" />
+      <jump line="1195" column="0" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/index.html" />
+      <jump line="1282" column="12" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/index.html" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">PGJvZHk+Cg==</text>
+        <text encoding="base64">ICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgiLi9pbWFnZXMvYmFja2dyb3VuZF8zLmpwZyIpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
-        <text>wrapper</text>
+        <text>bac</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0ibWFpbi5jc3MiIHR5cGU9InRleHQvY3NzIj4K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">PGJvZHk+Cg==</text>
+        <text encoding="base64">ICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgiLi9pbWFnZXMvYmFja2dyb3VuZF8zLmpwZyIpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PC9odG1sPgo=</text>
+        <text encoding="base64">PGJvZHk+Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">PC9odG1sPgo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">PC9ib2R5Pgo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">PGJvZHk+Cgo8L2JvZHk+CjwvaHRtbD4=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIDxoci8+Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICA8aHIvPgo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICA8c21hbGw+c29tZSBpbnRlcmVzdGluZyB0byBzaGFyZSB3aXRoIHlvdSE8L3NtYWxsPgo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICA8aDE+V2VsY29tZSB0byA8YSBocmVmPSIuL0Fib3V0X01FLmh0bWwiPldhbmd5YXdlbidzPC9hPiBCbG9nITwvaDE+Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA8aDE+V2VsY29tZSB0byA8YSBocmVmPSIuL0Fib3V0X01FLmh0bWwiPldhbmd5YXdlbidzPC9hPiBCbG9nITwvaDE+Cg==</text>
       </register>
     </registers>
     <search>
-      <last-search>wrapper</last-search>
+      <last-search>bac</last-search>
       <last-offset />
-      <last-pattern>wrapper</last-pattern>
+      <last-pattern>bac</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -256,6 +256,8 @@
         <entry>description</entry>
         <entry>contact</entry>
         <entry>wrapper</entry>
+        <entry>background</entry>
+        <entry>bac</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -288,6 +290,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
