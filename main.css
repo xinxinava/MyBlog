@@ -60,7 +60,7 @@ header .headnav li a img{
 }
 
 .clearFix{
-    width:95%;
+    width:96%;
     height:0;
     margin:0 auto;
     display: block;
@@ -69,7 +69,7 @@ header .headnav li a img{
 }
 
 .left{
-    width:75%;
+    width:72%;
     float: left;
     margin:0 auto;
     padding:20px 30px;
