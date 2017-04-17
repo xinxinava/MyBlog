@@ -34,13 +34,13 @@ header a:hover{
 
 header .wrapper{
     width:95%;
-    margin:0 0 0 5%;
+    margin:0 0 0 3%;
     line-height:52px;
 }
 
 header .headnav{
     float: right;
-    margin-right:100px;
+    margin-right:3%;
 }
 
 header .headnav ul{
