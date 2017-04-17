@@ -5,7 +5,7 @@
       <mark key="M" line="60" column="23" filename="$USER_HOME$/WebstormProjects/MyBlog/main.css" />
     </globalmarks>
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1492444271173">
+      <file name="/Dummy.txt" timestamp="1492444458141">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/MyBlog/index.html" timestamp="1492443933911">
@@ -34,12 +34,12 @@
         <mark key="." line="4" column="15" />
         <mark key="^" line="4" column="15" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/MyBlog/main.css" timestamp="1492444264529">
+      <file name="$USER_HOME$/WebstormProjects/MyBlog/main.css" timestamp="1492444449702">
         <mark key="'" line="158" column="14" />
-        <mark key="[" line="35" column="11" />
-        <mark key="]" line="35" column="12" />
-        <mark key="." line="35" column="12" />
-        <mark key="^" line="78" column="25" />
+        <mark key="[" line="36" column="17" />
+        <mark key="]" line="36" column="18" />
+        <mark key="." line="36" column="18" />
+        <mark key="^" line="42" column="16" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/DIV_CSS/index.html" timestamp="1491752323366">
         <mark key="[" line="19" column="0" />
@@ -196,11 +196,11 @@
       <jump line="1282" column="12" filename="$USER_HOME$/WebstormProjects/GaoHaoyang_Blog/index.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgiLi9pbWFnZXMvYmFja2dyb3VuZF8zLmpwZyIpOwo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>bac</text>
