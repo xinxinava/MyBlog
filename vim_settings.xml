@@ -5,7 +5,7 @@
       <mark key="M" line="60" column="23" filename="$USER_HOME$/WebstormProjects/MyBlog/main.css" />
     </globalmarks>
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1492444054900">
+      <file name="/Dummy.txt" timestamp="1492444271173">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/MyBlog/index.html" timestamp="1492443933911">
@@ -34,12 +34,12 @@
         <mark key="." line="4" column="15" />
         <mark key="^" line="4" column="15" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/MyBlog/main.css" timestamp="1492443925019">
+      <file name="$USER_HOME$/WebstormProjects/MyBlog/main.css" timestamp="1492444264529">
         <mark key="'" line="158" column="14" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="14" column="15" />
-        <mark key="." line="14" column="15" />
-        <mark key="^" line="14" column="15" />
+        <mark key="[" line="35" column="11" />
+        <mark key="]" line="35" column="12" />
+        <mark key="." line="35" column="12" />
+        <mark key="^" line="78" column="25" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/DIV_CSS/index.html" timestamp="1491752323366">
         <mark key="[" line="19" column="0" />
