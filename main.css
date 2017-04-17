@@ -16,11 +16,11 @@ body{
 }
 
 header{
-    height:52px;
+    height:2%;
     background: #222;
     color: #9d9d9d;
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.5);
-    margin-bottom:20px;
+    margin-bottom:12px;
 }
 
 header a{
@@ -49,14 +49,14 @@ header .headnav ul{
 
 header .headnav li{
     display: inline-block;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left:3px;
+    margin-right:3px;
 }
 
 header .headnav li a img{
-    width:32px;
-    height:32px;
-    margin-bottom:-10px;
+    width:26px;
+    height:26px;
+    margin-bottom:-6px;
 }
 
 .clearFix{
