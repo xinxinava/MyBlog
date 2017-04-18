@@ -18,7 +18,7 @@ type: page
 
 
 ## Animes
-* [NULL]()
+* [名侦探柯南]() 902/909
 
 ## Games
 * [NULL]()
