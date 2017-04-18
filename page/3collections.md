@@ -24,6 +24,4 @@ type: page
 * [NULL]()
 
 ## Comments
-* [NULL]()
-
 {% include comments.html %}
