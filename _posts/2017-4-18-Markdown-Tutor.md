@@ -2,8 +2,9 @@
 layout: post
 title:  "Markdown Tutor"
 date:   2017-04-18 15:15:0
-categories: MarkDown
+categories: Blog
 tags: MarkDown
+author: SteveDevin
 mathjax: true
 ---
 * content
