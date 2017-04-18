@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Jekyll 搭建静态博客"
-date:   2015-02-15 22:14:54
-categories: jekyll
-tags: jekyll RubyGems
+title:  "Cmd Markdown tutor"
+date:   2017-04-18 15:15:0
+categories: MarkDown
+tags: MarkDown
 ---
 
 # 欢迎使用 Cmd Markdown 编辑阅读器
