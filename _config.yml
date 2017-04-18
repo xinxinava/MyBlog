@@ -7,9 +7,9 @@
 
 # Site settings
 title: SteveDevin
-brief-intro: ACMer CV ACG
-baseurl: "http://blog.idevin.cn" # the subpath of your site, e.g. /blog
-url: "http://blog.idevin.cn/" # the base hostname & protocol for your site
+brief-intro: CS CV ACMer ACG
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
