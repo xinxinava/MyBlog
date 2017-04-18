@@ -9,7 +9,7 @@
 title: SteveDevin
 brief-intro: CS CV ACM ACG
 baseurl: "http://blog.idevin.cn" # the subpath of your site, e.g. /blog
-url: "http://idevin.cn" # the base hostname & protocol for your site
+url: "http://blog.idevin.cn" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
