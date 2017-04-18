@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 追番记录 
+title: ACG List 
 permalink: /ACG List/
 icon: play
 type: page
