@@ -7,7 +7,7 @@
 
 # Site settings
 title: SteveDevin
-brief-intro: CS CV ACM ACG
+brief-intro: ACM ACG CS CV
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.idevin.cn" # the base hostname & protocol for your site
 
