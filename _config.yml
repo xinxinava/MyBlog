@@ -9,26 +9,26 @@
 title: SteveDevin
 brief-intro: ACMer CV ACG
 baseurl: "http://blog.idevin.cn" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://blog.idevin.cn/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
+twitter_username: Mr_wyw
+facebook_username:
+github_username: w-devin
+email: Mr.wyw@foxmail.com
+weibo_username: SteveDevin
+zhihu_username: 筱陌
+linkedIn_username:
 dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 一条咸鱼的翻身历程！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-disqus_shortname: gaohaoyang
+disqus_shortname: steve-devin-blog
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
