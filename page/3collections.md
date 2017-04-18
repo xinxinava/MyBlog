@@ -10,20 +10,20 @@ type: page
 {:toc}
 
 ## Blogs
-*[Phase](http://arcphase20.com/)
-*[Test](http://www.cnblogs.com/test404/)
-*[winterfell30](http://winterfell30.com/)
-*[PureFrog](http://mycodebattle.com/)
-*[Scalpel](http://scalpel.vip/)
+* [Phase](http://arcphase20.com/)
+* [Test](http://www.cnblogs.com/test404/)
+* [winterfell30](http://winterfell30.com/)
+* [PureFrog](http://mycodebattle.com/)
+* [Scalpel](http://scalpel.vip/)
 
 
 ## Animes
-*[NULL]()
+* [NULL]()
 
 ## Games
-*[NULL]()
+* [NULL]()
 
 ## Comments
-*[NULL]()
+* [NULL]()
 
 {% include comments.html %}
