@@ -7,7 +7,7 @@ tags: MarkDown
 ---
 
 # 欢迎使用 Cmd Markdown 编辑阅读器
-```copy from [作业部落](http://www.zybuluo.com)
+`转自`[作业部落](http://www.zybuluo.com)
 
 ------
 
