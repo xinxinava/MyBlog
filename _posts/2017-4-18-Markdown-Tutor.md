@@ -4,7 +4,10 @@ title:  "Markdown Tutor"
 date:   2017-04-18 15:15:0
 categories: MarkDown
 tags: MarkDown
+mathjax: true
 ---
+* content
+{:toc}
 
 `转自`[作业部落](http://www.zybuluo.com)
 `注意：`此Tutor转自作业部落，其中介绍的流程图、序列图、甘特图可能并不适用于其他解析器
