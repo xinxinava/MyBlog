@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cmd Markdown tutor"
+title:  "Cmd Markdown Tutor"
 date:   2017-04-18 15:15:0
 categories: MarkDown
 tags: MarkDown
