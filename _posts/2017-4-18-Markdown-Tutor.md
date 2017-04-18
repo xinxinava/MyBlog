@@ -3,7 +3,7 @@ layout: post
 title:  "Markdown Tutor"
 date:   2018-04-18 15:15:0
 categories: Blog
-tags: MarkDown
+tags: Markdown
 author: SteveDevin
 mathjax: true
 ---
