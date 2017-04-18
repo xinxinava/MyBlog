@@ -22,7 +22,8 @@ type: page
 * [妖精的尾巴]() 50/?
 
 ## Games
-* [NULL]()
+* [仙剑奇侠传Ⅳ]()
+* [雷曼]()
 
 ## Comments
 {% include comments.html %}
