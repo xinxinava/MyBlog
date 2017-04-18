@@ -10,8 +10,6 @@ mathjax: true
 * content
 {:toc}
 
-`转自`[作业部落](http://www.zybuluo.com)
-
 ![My Blog Logo](http://oolw4u9nj.bkt.clouddn.com/Head.png)
 
 
