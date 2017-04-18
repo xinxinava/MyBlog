@@ -3,7 +3,7 @@ layout: post
 title:  "Post Style"
 date:   2018-04-18 11:40:18 +0800
 categories: Blog
-tags: markdown 
+tags: Markdown 
 author: SteveDevin
 mathjax: true
 ---
