@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Collections
-permalink: /collection/
-icon: bookmark
+title: 追番记录 
+permalink: /ACG List/
+icon: play
 type: page
 ---
 
