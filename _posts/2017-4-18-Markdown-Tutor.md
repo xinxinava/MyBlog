@@ -23,7 +23,7 @@ mathjax: true
 
 Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
 
-### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
+### 1. 制作一份待办事宜
 
 -[ ] 支持以 PDF 格式导出文稿
 -[ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
@@ -49,11 +49,14 @@ if __name__ == '__main__':
 
 ### 4. 绘制表格
 
-| 项目        | 价格   |  数量  |
-| --------   | -----:  | :----:  |
-| 计算机     | \$1600 |   5     |
-| 手机        |   \$12   |   12   |
-| 管线        |    \$1    |  234  |
+|项目|价格|数量|
+|:---:|:---:|:---:|
+|计算机|\$1600|5|
+|手机 |\$12|12|
+|管线 |\$1|234|
+
+### 5. 开放图标
+[icons](http://fortawesome.github.io/Font-Awesome/3.2.1/icons/)
 
 ---
 
@@ -61,6 +64,4 @@ if __name__ == '__main__':
 
 [^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，**四十一**种主流编程语言。
 
-[3]: http://weibo.com/ghosert
-[4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 
