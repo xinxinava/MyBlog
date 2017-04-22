@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Post Style"
-date:   2017-04-18 11:40:18 +0800
-categories: Blog
-tags: Markdown
+title:  "Code:The Hidden Language of Computer Hardware and Software"
+date:   2017-04-22 11:40:18 +0800
+categories: Read
+tags: Code
 author: SteveDevin
 mathjax: true
 ---
