@@ -18,6 +18,10 @@ mathjax: true
 
 字母表索引 -> 二叉树索引
 
+
+
+
+
 ## chapter 3 布莱叶盲文与二元编码
 
 陆军上尉Charles Barbier 发明的ecriture nocturne书写体系用凸点表示声音, 导致不利于传递长文章
