@@ -31,4 +31,4 @@ Mac os镜像可从我的百度云链接下载(链接: https://pan.baidu.com/s/1c
 
 5. 接下来就可以安装系统啦
 
-6. 安装好 VMware Tools 后就可以放心开心的食用啦(￣▽￣)"
+6. 安装好 VMware Tools 后就可以开心的食用啦(￣▽￣)"
