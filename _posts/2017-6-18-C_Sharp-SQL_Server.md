@@ -19,47 +19,56 @@ mathjax: true
 
 
 1.命名空间：
-```C#
+```cs
 using System.Data.SqlClient;
 ```
 
 2.链接字符串的写法:
-```C#
+```cs
 string connectString = "Data Source = ; Initial Catalog = ; Persist Security Info = True; User ID = ; Password = ";
 ```
 
 3.连接数据库
-```C#
+```cs
 SqlConnection sqlCnt = new SqlConnection(connectString);
 ```
 与其他形式的连接相同, 数据库的连接需要 使用前和使用结束后的 open 与 close 操作
 
-```C#
+```cs
 sqlCnt.Open();
 sqlCnt.Close();
 ```
 
 4.SqlCommand 对象
 
-```C#
+```cs
 SqlCommand cmd = sqlCnt.CreateCommand();
 ```
 或者通过实例化的方式创建 SqlCommand 对象
 
-```C#
+```cs
 SqlCommand cmd = new SqlCommand();
 cmd.Connection = sqlCnt;
 ```
 
 SqlCommand 的常用方法：
-```C#
-cmd.ExecuteNonQuery(): 返回受影响的记录个数, 常可以用于判断是否存在符合条件的数据；
-cmd.ExecuteScalar()：执行查询，返回首行首列的结果；
-cmd.ExecuteReader()：返回一个SqlDataReader对象, 常用于查询, 可以理解为数据库的游标， 如果同一个 SqlDataReader 对象用于多次查询， 需要先 Close一下。
+```cs
+cmd.ExecuteNonQuery();
 ```
+返回受影响的记录个数, 常可以用于判断是否存在符合条件的数据；
+
+```cs
+cmd.ExecuteScalar();
+```
+执行查询，返回首行首列的结果；
+
+```cs
+cmd.ExecuteReader()
+```
+返回一个SqlDataReader对象, 常用于查询, 可以理解为数据库的游标， 如果同一个 SqlDataReader 对象用于多次查询， 需要先 Close一下。
 
 5.直接贴代码吧....
-```C#
+```cs
  private void button1_Click(object sender, EventArgs e)
         {
             string news = richTextBox1.Text;
