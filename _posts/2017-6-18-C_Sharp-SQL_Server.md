@@ -55,9 +55,9 @@ cmd.Connection = sqlCnt;
 
 SqlCommand 的常用方法：
 ```cs
-cmd.ExecuteNonQuery();
+cmd.ExecuteNonQuery(); //返回受影响的记录个数, 常可以用于判断是否存在符合条件的数据；
 ```
-返回受影响的记录个数, 常可以用于判断是否存在符合条件的数据；
+
 样例:
 ```cs
 int succNum = cmd.ExecuteNonQuery();
@@ -69,15 +69,13 @@ else
 ```
 
 ```cs
-cmd.ExecuteScalar();
+cmd.ExecuteScalar(); //执行查询，返回首行首列的结果；
 ```
-执行查询，返回首行首列的结果；
 
 ```cs
-cmd.ExecuteReader()
+cmd.ExecuteReader();  //返回一个SqlDataReader对象, 常用于查询, 可以理解为数据库的游标， 如果同一个 SqlDataReader 对象用于多次查询， 需要先 Close一下。
 ```
 
-返回一个SqlDataReader对象, 常用于查询, 可以理解为数据库的游标， 如果同一个 SqlDataReader 对象用于多次查询， 需要先 Close一下。
 样例：
 
 ```cs
@@ -93,17 +91,16 @@ else do
 dataReader.Close();
 dataReader.Dispose();
 ```
+
 4.2 常用成员
 
 ```cs
-CommandType
+CommandType //链接类型
 ```
-链接类型
 
 ```cs
-CommandText
+CommandText //查询语句/表明/存储过程
 ```
-查询语句/表明/存储过程
 
 5.尚待补充：
 
