@@ -32,15 +32,17 @@ string connectString = "Data Source = ; Initial Catalog = ; Persist Security Inf
 ```cs
 SqlConnection sqlCnt = new SqlConnection(connectString);
 ```
-与其他形式的连接相同, 数据库的连接需要 使用前和使用结束后的 open 与 close 操作
+与其他形式的连接相同, 数据库的连接需要 使用前和使用结束后的 open、close 与 Dispose 操作
 
 ```cs
 sqlCnt.Open();
 sqlCnt.Close();
+sqlCnt.Dispose();
 ```
 
 4.SqlCommand 对象
 
+4.1常用方法
 ```cs
 SqlCommand cmd = sqlCnt.CreateCommand();
 ```
@@ -56,6 +58,15 @@ SqlCommand 的常用方法：
 cmd.ExecuteNonQuery();
 ```
 返回受影响的记录个数, 常可以用于判断是否存在符合条件的数据；
+样例:
+```cs
+int succNum = cmd.ExecuteNonQuery();
+
+if(succNum == 0) 
+    Console.Write("operator failure");
+else 
+    Console.Write("operator succeed");
+```
 
 ```cs
 cmd.ExecuteScalar();
@@ -65,58 +76,56 @@ cmd.ExecuteScalar();
 ```cs
 cmd.ExecuteReader()
 ```
+
 返回一个SqlDataReader对象, 常用于查询, 可以理解为数据库的游标， 如果同一个 SqlDataReader 对象用于多次查询， 需要先 Close一下。
+样例：
 
-5.直接贴代码吧....
 ```cs
- private void button1_Click(object sender, EventArgs e)
-        {
-            string news = richTextBox1.Text;
-            string name = textBox1.Text;
-            string ID = null;
+SqlDataReader dataReader = cmd.ExecuteReader();
 
-            string connectString = "Data Source = ; Initial Catalog = ; Persist Security Info = True; User ID = ; Password = ";
+if(! dataReader.Read())
+    Console.Write("No query results");
+else do
+{
+    Console.Write(dataReader['index name']);
+} while(dataReader.Read());
 
-            SqlConnection sqlCnt = new SqlConnection(connectString);
-            sqlCnt.Open();
+dataReader.Close();
+dataReader.Dispose();
+```
+4.2 常用成员
 
-            SqlCommand cmd = sqlCnt.CreateCommand();
+```cs
+CommandType
+```
+链接类型
 
-            string strcmd = "select name, ID from Admins where name='" + name + "';";
+```cs
+CommandText
+```
+查询语句/表明/存储过程
 
-            cmd.CommandText = strcmd;
-            SqlDataReader require = cmd.ExecuteReader();
+5.尚待补充：
 
-            if(! require.Read())
-            {
-                MessageBox.Show("请以管理员身份发布新闻");
-            }
-            else
-            {
-                ID = require[1].ToString();
+5.1
 
-                strcmd = "insert into News values('" + ID + "', getdate(), '" + news + "');";
-                cmd.CommandText = strcmd;
-
-                require.Close();
-
-
-                int succCount = cmd.ExecuteNonQuery();
-                if (succCount == 0)
-                    MessageBox.Show("发布失败");
-                else MessageBox.Show("发布成功");
-
-            }
-
-            require.Close();
-            sqlCnt.Close();
-        }
+```cs
+System.Data.SqlClient.SqlDataAdapter;
 ```
 
-时间太紧迫了， 先写到这， 以后再细化
+5.2
+
+```cs
+System.Data.SqlClient.SqlCommandBuilder;
+```
+
+5.3
+
+```cs
+System.Data.DataSet;
+```
 
 
+6.参考资料/网站
 
-
-
-
+[Rain Man](http://www.cnblogs.com/rainman/archive/2012/03/13/2393975.html)
