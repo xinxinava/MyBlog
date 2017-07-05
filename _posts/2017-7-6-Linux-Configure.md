@@ -46,4 +46,25 @@ sudo gem install jekyll-paginate
 
 　　　3.4最后根据个人的使用习惯设置一下快捷键,皮肤即可
 
-4.剩下的以后再补充
+4.java环境配置:
+
+　　　4.1[官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载合适版本JDK, xxx.tar.gz文件
+
+　　　4.2选择安装目录, 例如 ` /usr/java ` 目录
+
+　　　4.3将文件解压在改目录下　`/usr/java/jdk1.8.0_131/`
+
+　　　4.4编辑　`etc/profile`, 在文件末尾添加：
+
+```sh
+JAVA_HOME=/usr/java/jdk1.8.0_131
+CLASSPATH=.:$JAVA_HOME/lib.tools.jar
+PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME CLASSPATH PATH
+```
+
+　　　4.5 `source /etc/profile`
+
+　　　4.5最后可以通过　`java -version`　验证是否安装成功
+
+5.剩下的以后再补充
