@@ -56,12 +56,12 @@ sudo gem install jekyll-paginate
 
 　　　4.4编辑　`etc/profile`, 在文件末尾添加：
 
-　　　```sh
-　　　JAVA_HOME=/usr/java/jdk1.8.0_131
-　　　CLASSPATH=.:$JAVA_HOME/lib.tools.jar
-　　　PATH=$JAVA_HOME/bin:$PATH
-　　　export JAVA_HOME CLASSPATH PATH
-　　　```
+```sh
+JAVA_HOME=/usr/java/jdk1.8.0_131
+CLASSPATH=.:$JAVA_HOME/lib.tools.jar
+PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME CLASSPATH PATH
+```
 
 　　　4.5 `source /etc/profile`
 
