@@ -14,10 +14,10 @@ mathjax: true
 
 ---
 layout: post
-title:  "Post Style"
-date:   2018-04-18 11:40:18 +0800
-categories: Blog
-tags: markdown 
+title:  ""
+date:
+categories:
+tags:
 author: SteveDevin
 mathjax: true
 ---
